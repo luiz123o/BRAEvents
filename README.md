@@ -33,6 +33,7 @@
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [Styled Media Query](https://github.com/typicode/husky)
 
 
 
@@ -53,4 +54,4 @@
 - `build-storybook`: create the build version of storybook
 
 
-"# BRAEvents" 
+"# BRAEvents"
