@@ -25,11 +25,11 @@ export default {
   },
 
   colors: {
-    primary: '#35E0FC',
+    primary: ' #7B95DE',
     secondary: '#342EAF',
     bg: '#FDFCFD',
     white: '#fafafa',
-    black: '#030517',
+    black: '#080A19',
     lightPurple: '#9200FC',
     darkPurple: '#22013A',
     lightGray: ' #EAEAEA',

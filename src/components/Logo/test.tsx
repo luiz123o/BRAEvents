@@ -18,7 +18,7 @@ describe('<Logo />', () => {
     renderWithTheme(<Logo color="black" />)
 
     expect(screen.getByLabelText(/BRAEvents/i).parentElement).toHaveStyle({
-      color: '#030517'
+      color: '#080A19'
     })
   })
   it('should render a normal logo when size is default', () => {
