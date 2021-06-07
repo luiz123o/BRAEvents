@@ -20,13 +20,18 @@
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "js": false
     },
     "ecmaVersion": 11,
     "sourceType": "module"
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint"],
   "rules": {
+    "prettier/prettier": ["error", {}, {
+      "usePrettierrc": true
+    }],
+    "@typescript-eslint/no-non-null-assertion": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
