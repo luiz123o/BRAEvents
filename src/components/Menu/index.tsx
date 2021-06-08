@@ -8,6 +8,7 @@ import { Home as HomeIcon } from '@styled-icons/evaicons-solid/Home'
 import { Stars as StarsIcon } from '@styled-icons/bootstrap/Stars'
 import { UserCircle as UserCircleIcon } from '@styled-icons/fa-solid/UserCircle'
 import Logo from '../Logo'
+import MediaMatch from 'components/MediaMatch'
 import { useState } from 'react'
 import Button from 'components/Button'
 import Wave from './Wave'
@@ -20,12 +21,29 @@ const Menu = ({ username }: MenuProps) => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <S.Wrapper>
-      <S.WrapperIcon onClick={() => setIsOpen(true)}>
-        <MenuIcon aria-label="Abrir Menu" />
-      </S.WrapperIcon>
+      <MediaMatch lessThan="medium">
+        <S.WrapperIcon onClick={() => setIsOpen(true)}>
+          <MenuIcon aria-label="Abrir Menu" />
+        </S.WrapperIcon>
+      </MediaMatch>
+
       <S.LogoWrapper>
         <Logo hideOnMobile />
       </S.LogoWrapper>
+
+      <MediaMatch greaterThan="medium">
+        <S.MenuNav>
+          <S.MenuLink href="#">
+            <HomeIcon />
+            Início
+          </S.MenuLink>
+          <S.MenuLink href="#">
+            <TicketIcon />
+            Palestras
+          </S.MenuLink>
+        </S.MenuNav>
+      </MediaMatch>
+
       <S.MenuGroup>
         <S.WrapperIcon>
           <SearchIcon aria-label="Pesquisar" />
@@ -33,6 +51,11 @@ const Menu = ({ username }: MenuProps) => {
         <S.WrapperIcon>
           <ShoppingCartIcon aria-label="Carrinho de compras" />
         </S.WrapperIcon>
+        {!username && (
+          <MediaMatch greaterThan="medium">
+            <Button>Entrar</Button>
+          </MediaMatch>
+        )}
       </S.MenuGroup>
       <S.MenuFull aria-hidden={!isOpen} isOpen={isOpen}>
         <Wave />
