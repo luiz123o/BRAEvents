@@ -34,11 +34,15 @@ const Menu = ({ username }: MenuProps) => {
       <MediaMatch greaterThan="medium">
         <S.MenuNav>
           <S.MenuLink href="#">
-            <HomeIcon />
+            <MediaMatch lessThan="medium">
+              <HomeIcon />
+            </MediaMatch>
             Início
           </S.MenuLink>
           <S.MenuLink href="#">
-            <TicketIcon />
+            <MediaMatch lessThan="medium">
+              <TicketIcon />
+            </MediaMatch>
             Palestras
           </S.MenuLink>
         </S.MenuNav>
