@@ -38,12 +38,11 @@ const wrapperMatchModifiers = {
 
 export const Wrapper = styled.button<WrapperProps>`
   ${({ theme, size, fullWidth, hasIcon }) => css`
-    background: rgb(154, 131, 180);
+    background: rgb(180, 102, 200);
     background: linear-gradient(
       180deg,
-      rgba(154, 131, 180, 1) 0%,
-      rgba(113, 107, 148, 1) 35%,
-      rgba(123, 149, 222, 1) 93%
+      rgba(180, 102, 200, 1) 0%,
+      rgba(136, 105, 224, 1) 93%
     );
     color: ${theme.colors.white};
     cursor: pointer;
