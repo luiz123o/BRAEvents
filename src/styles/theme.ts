@@ -15,7 +15,8 @@ export default {
       medium: '1.6rem',
       large: '1.8rem',
       xlarge: '2.0rem',
-      xxlarge: '2.8rem'
+      xxlarge: '2.8rem',
+      huge: '5.2rem'
     },
     weight: {
       light: 300,
@@ -32,11 +33,14 @@ export default {
     black: '#080A19',
     lightPurple: '#9200FC',
     darkPurple: '#22013A',
+    'purple.50': '#D9DADD',
     'purple.500': '#b466c8',
     'purple.100': '#B88AD2',
     lightGray: ' #EAEAEA',
     gray: '#8f8f8f',
-    darkGray: '#2e2f42'
+    darkGray: '#2e2f42',
+    success: '#149414',
+    error: '#D00000'
   },
   spacings: {
     xxsmall: '0.8rem',
@@ -53,5 +57,9 @@ export default {
     overlay: 30,
     modal: 40,
     alwaysOnTop: 50
+  },
+  transition: {
+    default: '0.3s ease-in-out',
+    fast: '0.1s ease-in-out'
   }
-}
+} as const
