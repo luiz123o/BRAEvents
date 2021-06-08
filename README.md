@@ -34,6 +34,7 @@
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 - [Styled Media Query](https://github.com/typicode/husky)
+- [Styled Icons](https://github.com/typicode/husky)
 
 
 
