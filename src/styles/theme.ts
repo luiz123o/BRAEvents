@@ -27,11 +27,13 @@ export default {
   colors: {
     primary: ' #7B95DE',
     secondary: '#342EAF',
-    bg: '#FDFCFD',
+    bg: '#352E57',
     white: '#fafafa',
     black: '#080A19',
     lightPurple: '#9200FC',
     darkPurple: '#22013A',
+    'purple.500': '#b466c8',
+    'purple.100': '#B88AD2',
     lightGray: ' #EAEAEA',
     gray: '#8f8f8f',
     darkGray: '#2e2f42'
