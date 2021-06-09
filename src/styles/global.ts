@@ -48,6 +48,13 @@ ${({ theme }) => css`
   body {
     font-family: ${theme.font.family};
     font-size: ${theme.font.sizes.medium};
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px ${theme.colors.white} inset;
+    }
+    /* Cor do texto do autocomplete */
+    input:-webkit-autofill {
+      -webkit-text-fill-color: ${theme.colors['purple.500']} !important;
+    }
   }
 `}
 
