@@ -12,10 +12,10 @@ describe('<Heading />', () => {
     })
   })
   it('should render a  heading when is passed', () => {
-    renderWithTheme(<Heading color="black">BRAEvents</Heading>)
+    renderWithTheme(<Heading color="white">BRAEvents</Heading>)
 
     expect(screen.getByRole('heading', { name: /BRAEvents/i })).toHaveStyle({
-      color: '#080A19'
+      color: '#fafafa'
     })
   })
   it('should render a heading with a line to the bottom side ', () => {
