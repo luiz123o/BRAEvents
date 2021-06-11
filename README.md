@@ -1,5 +1,5 @@
-<h1 align="center">Typescript Template for NextJS</h1>
-  <p align="center">Template created for use in projects with React in typescript</p>
+<h1 align="center">Project created for educational purposes</h1>
+  <p align="center">Used in the test of the company MBLabs, application responsible for managing events, selling tickets.</p>
 
 
 <p align="center">
@@ -40,19 +40,29 @@
 
 <p>For installation just run the command below</p>
 
+Clone:
   ```
-  yarn create next-app -e https://github.com/luiz123o/template-nextjs10
+  git clone https://github.com/luiz123o/BRAEvents.git
   ```
+Install dependencies
+  ```
+  yarn
+  ```
+Run the server
+```
+yarn server
+```
 ## Commands
 
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
 - `lint`: runs the linter in all components and pages
+- `server`: run the fake server
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
 
 
-"# BRAEvents"
+

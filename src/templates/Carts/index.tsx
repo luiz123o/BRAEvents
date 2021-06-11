@@ -7,6 +7,7 @@ import { Container } from 'components/Container'
 import Button from 'components/Button'
 import Heading from 'components/Heading'
 import { DeleteOutline } from '@styled-icons/material-outlined'
+import Link from 'next/link'
 
 export interface Event {
   id: number
@@ -86,6 +87,11 @@ export const Cart = () => {
               </S.EventContent>
             ))}
           </S.Wrapper>
+          <Link href="/sign-in">
+            <S.ButtonContainer>
+              <Button>Finalizar</Button>
+            </S.ButtonContainer>
+          </Link>
         </Container>
       </Base>
     </>

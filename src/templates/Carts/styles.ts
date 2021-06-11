@@ -64,6 +64,13 @@ export const Footer = styled.div`
   display: flex;
   margin-top: 5rem;
 `
+export const ButtonContainer = styled.div`
+  display: flex;
+  float: right;
+  align-items: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+`
 
 export const CardInfo = styled.div`
   ${({ theme }) => css`
