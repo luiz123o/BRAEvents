@@ -1,0 +1,125 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "name": "finances",
+      "title": "Finanças"
+    },
+    {
+      "id": 2,
+      "name": "apprenticeship",
+      "title": "Aprendizado"
+    },
+    {
+      "id": 3,
+      "name": "development",
+      "title": "Desenvolvimento"
+    },
+
+    {
+      "id": 4,
+      "name": "health",
+      "title": "Saúde"
+    },
+    {
+      "id": 5,
+      "name": "family",
+      "title": "Família"
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 10
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "desenvolvendo apps",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "theme": "Desenvolvimento",
+      "local": "Teatro bem vindo",
+      "price": 179.9,
+      "date_start": "27/04",
+      "date_finaly": "30/04",
+      "type": "online",
+
+      "image": "https://images.unsplash.com/photo-1604580322940-fec5b19db68c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": 2,
+      "name": "O futuro do fundo imobiliario",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "theme": "Aprendizado",
+      "local": "Teatro bem vindo",
+      "price": 179.9,
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 3,
+      "name": "brasil um pais em cresciemnto",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "theme": "Aprendizado",
+      "local": "Teatro bem vindo",
+      "price": 179.9,
+      "image": "https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=647&q=80"
+    },
+    {
+      "id": 4,
+      "name": "o poder da mente",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "theme": "Aprendizado",
+      "local": "Teatro bem vindo",
+      "price": 179.9,
+      "image": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 5,
+      "name": "criando filhos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "theme": "Aprendizado",
+      "local": "Teatro bem vindo",
+      "price": 179.9,
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 6,
+      "name": "você é o que acredita ser",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "theme": "Aprendizado",
+      "local": "Teatro bem vindo",
+      "price": 179.9,
+      "image": "https://images.unsplash.com/photo-1525373698358-041e3a460346?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 7,
+      "name": "investindo com autoridade",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "theme": "Aprendizado",
+      "local": "Teatro bem vindo",
+      "price": 179.9,
+      "image": "https://images.unsplash.com/photo-1525373698358-041e3a460346?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+    }
+  ]
+}

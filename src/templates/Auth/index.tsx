@@ -1,5 +1,6 @@
 import * as S from './styles'
 import Logo from '../../components/Logo'
+
 import Heading from '../../components/Heading'
 import React from 'react'
 
@@ -12,9 +13,8 @@ const Auth = ({ title, children }: AuthProps) => (
   <S.Wrapper>
     <S.Banner>
       <S.BannerContent>
-        <Logo id="banner" />
         <div>
-          <Heading color="white" size="huge">
+          <Heading color="white" size="small">
             As melhores palestras com os melhores preços você encontra aqui.
           </Heading>
           <S.SubTitle>
@@ -28,7 +28,7 @@ const Auth = ({ title, children }: AuthProps) => (
     <S.Content>
       <S.ContentWrapper>
         <Logo color="black" size="large" id="content" />
-        <Heading color="lightPurple" lineBottom>
+        <Heading color="purple.800" lineBottom>
           {title}
         </Heading>
         {children}

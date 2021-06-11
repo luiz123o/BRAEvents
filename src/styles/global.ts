@@ -39,6 +39,10 @@ ${({ theme }) => css`
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    &::after,
+    &::before {
+      box-sizing: inherit;
+    }
   }
 
   html {
@@ -48,6 +52,15 @@ ${({ theme }) => css`
   body {
     font-family: ${theme.font.family};
     font-size: ${theme.font.sizes.medium};
+    text-transform: none;
+    background-color: #22013a;
+    background-image: linear-gradient(
+      180deg,
+      #22013a 0%,
+      #352e57 46%,
+      #b88ad2 100%
+    );
+
     input:-webkit-autofill {
       -webkit-box-shadow: 0 0 0 30px ${theme.colors.white} inset;
     }

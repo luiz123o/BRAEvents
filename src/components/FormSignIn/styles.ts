@@ -18,7 +18,7 @@ export const ForgotPassword = styled.a`
   ${({ theme }) => css`
     display: block;
     font-size: ${theme.font.sizes.small};
-    color: ${theme.colors.lightPurple};
+    color: ${theme.colors['purple.800']};
     text-decoration: none;
     text-align: right;
     &:hover {
@@ -38,10 +38,10 @@ export const FormLink = styled.div`
       color: ${theme.colors['purple.100']};
       text-decoration: none;
       margin-left: ${theme.spacings.xsmall};
-      border-bottom: 0.1rem solid ${theme.colors.lightPurple};
+      border-bottom: 0.1rem solid ${theme.colors['purple.800']};
       transition: color, border, ${theme.transition.fast};
       &:hover {
-        color: ${theme.colors.lightPurple};
+        color: ${theme.colors['purple.800']};
         border-bottom: 0.1rem solid ${theme.colors['purple.100']};
       }
     }

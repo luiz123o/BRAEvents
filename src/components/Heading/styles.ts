@@ -4,16 +4,17 @@ import { HeadingProps } from '.'
 
 const wrapperModifiers = {
   small: (theme: DefaultTheme) => css`
-    font-size: ${theme.font.sizes.medium};
+    font-size: ${theme.font.sizes.xsmall};
     &::after {
       width: 3rem;
     }
   `,
 
   medium: (theme: DefaultTheme) => css`
-    font-size: ${theme.font.sizes.xlarge};
+    font-size: ${theme.font.sizes.small};
     ${media.greaterThan('medium')`
-        font-size: ${theme.font.sizes.xxlarge};
+        font-size: ${theme.font.sizes.medium};
+        font-weight: ${theme.font.weight.light};
       `}
   `,
 
@@ -22,7 +23,7 @@ const wrapperModifiers = {
   `,
   lineBottom: (theme: DefaultTheme) => css`
     position: relative;
-    padding-left: ${theme.spacings.xxsmall};
+
     margin-bottom: ${theme.spacings.medium};
 
     &::after {

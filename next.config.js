@@ -7,6 +7,14 @@ module.exports = withPWA({
     dest: 'public',
     disable: !isProd
   },
+  images: {
+    domains: [
+      'localhost',
+      'res.cloudinary.com',
+      'unsplash.com',
+      'images.unsplash.com'
+    ]
+  },
   future: {
     webpack5: true
   }

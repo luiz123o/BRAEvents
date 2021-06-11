@@ -3,15 +3,15 @@ import * as S from './styles'
 
 export type HeadingProps = {
   children: React.ReactNode
-  color?: 'lightPurple' | 'white'
+  color?: 'purple.800' | 'white'
   size?: 'small' | 'medium' | 'huge'
   lineBottom?: boolean
 }
 
 const Heading = ({
   children,
-  color = 'lightPurple',
-  size = 'medium',
+  color = 'purple.800',
+  size = 'small',
   lineBottom = false
 }: HeadingProps) => (
   <S.Wrapper lineBottom={lineBottom} color={color} size={size}>

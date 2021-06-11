@@ -1,14 +1,14 @@
 import * as S from './styles'
 
 export type LogoProps = {
-  color?: 'lightPurple' | 'black'
+  color?: 'purple.800' | 'black'
   id?: string
   size?: 'normal' | 'large'
   hideOnMobile?: boolean
 }
 
 const Logo = ({
-  color = 'lightPurple',
+  color = 'purple.800',
   id = 'logo',
   size = 'normal',
   hideOnMobile = false
