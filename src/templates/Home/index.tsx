@@ -40,12 +40,12 @@ export const Home = () => {
 
   useEffect(() => {
     async function searchEvents() {
-      if (searchName || isChecked) {
-        const { data } = await api.get<Event[]>(
-          `events/${
-            searchName && `?name=${searchName}`
-          }${`?theme=${checkTheme}`}`
-        )
+      const status =
+        isChecked === true
+          ? `${isChecked && `/?theme=${checkTheme}`}`
+          : `${searchName && `?name=${searchName}`}`
+      if (status) {
+        const { data } = await api.get<Event[]>(`events${status}`)
         const formattedEvents = data.map<EventFormatted>((event) => ({
           ...event,
           priceFormatted: formatPrice(event.price)
