@@ -31,7 +31,7 @@ const FormSignUp = () => (
         name="confirm-password"
         placeholder="Confirm password"
         type="password"
-        icon={<Lock />}
+        icon={<Lock />} 
       />
 
       <Button size="large" fullWidth>

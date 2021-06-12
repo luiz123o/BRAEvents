@@ -29,7 +29,7 @@ describe('<Container />', () => {
         class="c0"
       >
         <span>
-          BRAEvents
+          BraEvents
         </span>
       </div>
     `)
